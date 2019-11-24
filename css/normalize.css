@@ -1,0 +1,41 @@
+header {
+    display: block;
+}
+
+
+
+script {
+  display: none !important;
+}
+
+
+
+html {
+    font-family: sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
+
+body {
+    margin: 0;
+}
+
+
+a {
+    background: transparent;
+}
+
+
+
+a:focus {
+    outline: thin dotted;
+}
+
+
+a:active,
+a:hover {
+    outline: 0;
+}
+

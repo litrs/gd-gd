@@ -1,0 +1,104 @@
+
+@media screen and (max-width: 640px){
+	
+	.site-header{
+		padding: 10px;
+		padding-bottom: 50px;
+	}
+	
+	.logo-wrap{
+		position: absolute;	
+		top: 50px;
+		left: 50%;
+		margin-left: -126px;
+	}
+	
+	.site-header .top-menu-wrap .top-menu-link{
+		display: none;
+	}
+	
+	.projects-wrapper{
+		padding: 0px;
+	}
+	
+	.project-link-wrap{
+		padding: 0 40px;
+		height: 200px;
+		line-height: 200px;
+	}
+	
+	.project-open-wrap{
+		padding: 30px;
+	}
+	
+	.tabs dd > a{
+		font-size: 18px;
+	}
+	
+	.home-service-tabs{
+		height: 80px;
+		margin-top: -50px;		
+	}
+	
+	.home-services .tabs-content .content .services{
+		padding-left: 0;	
+	}
+	
+	.tabs dd > a, .tabs dd.active a, .tabs dd > a, .tabs dd.active a, .tabs dd.active a:hover, .tabs dd > a:hover{
+		background: none;
+		font-size: 18px;
+	}
+	
+	.tabs dd.active::after{
+		bottom: -42px;
+	}
+	
+	.home-services .tabs-content .content{
+		padding-top: 20px;
+		padding-bottom: 0;		
+	}
+	
+	body{
+		width: 100% !important;
+		overflow-x: hidden;
+	}
+	.project-open-wrap.mob-project p{
+		width: 100%;
+	}
+	
+	.project-open-wrap.mob-project .comp-display{
+		position: relative;
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 50px;
+		margin-right: -190px;
+	}
+	
+	.project-open-wrap.mob-project a.website-link{
+		text-align: center;
+	}
+	
+	.project-open-wrap.mob-project .comp-overlay{
+		width: 309px;
+	}
+	
+	.project-open-wrap .close{
+		display: none;	
+	}
+	
+	.project-open-wrap .color-logo{
+		display: none;	
+	}
+	
+	.project-open-wrap h3{
+		margin-top: 0;
+	}
+	
+}
+
+@media screen and (max-width: 520px){
+	.project-open-wrap.mob-project .comp-display{
+		margin-right: -80px;
+	}
+
+}
